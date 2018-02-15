@@ -1,12 +1,13 @@
 # Naver News Crawler<br>
-
+<br>
 ## naver\_news\_crawler.py
 "naver\_news\_crawler.py" is a code for fetching articles from Naver News, a Korean portal site. It crawls news document including press, category, content, publised date and crawling date, and create unique key by hashing document content using BeautifulSoup4. It is the limitation that it can only crawl the html floated on naver news page not that of specific date.<br>
+<br>
 ## naver\_news_crawler\_w\_comment.py
 "naver\_news_crawler\_w\_comment.py" is revised version of "naver\_news\_crawler.py" in that specific datetime range can be set and also comments of each news article can be collected using Selenium. (It priorly needs web driver such as Chrome) but, It has a limitation that it doesn't work well on AWS, which means It is not appropriate for continuous and stable information supply and demand.<br>
 
 News articles crawled by both codes are saved as Document class and Comment class defined in "news\_document\_class.py", So It should be imported before crawling.<br>
-
+<br>
 <hr>
 ## How to use
 #### 1) Import modules
