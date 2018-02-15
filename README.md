@@ -8,7 +8,8 @@
 <br>
 News articles crawled by both codes are saved as Document class and Comment class defined in "news\_document\_class.py", So It should be imported before crawling.<br>
 <hr>
-<br><br>
+<br>
+
 ## How to use
 #### 1) Import modules
 <pre><code>import news\_document\_class as nd
