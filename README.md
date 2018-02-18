@@ -41,6 +41,6 @@ print("\nDocument_summary : ")
 nd_summary_list[0].print_document_summary()
 </code></pre>
 
-
+<br><br>
 <hr>
 This code has been written in 2018 JAN, and works well in 2018 FEB. (but, Crawling is dependent on external condition, not sure when it be blocked.)
